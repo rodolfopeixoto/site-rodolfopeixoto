@@ -1,13 +1,41 @@
 .profile {
-  width: 60%;
+  width: 50%;
   background: #fff;
   margin: auto;
   margin-top: 20px;
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
-  padding: 10px
+  padding: 20px
 }
 
-.about_profile{
-    width:90%;
-    float: right;
+.profile h1{
+    font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile p strong{
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.profile figure img{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.block_social{
+
+}
+
+
+
+@media only screen and (max-width: 657px){
+  .profile h1{ font-size: 16px; padding: 5px; }
+  .profile p strong{ font-size: 13px; }
+  .profile figure img{
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
 }

@@ -122,7 +122,7 @@ header {
   color: #303036;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-size:1.2em;
+  font-size:0.9em;
 }
 
 .navigationBar a:hover { color: #7e7e84;
@@ -143,12 +143,27 @@ nav .icon {
 }
 
 
+/* Class bootstrap */
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /*MEDIA QUERY*/
 
 
 /* header */
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 657px){
   nav .icon {  display: block; font-size:2.6em; }
   nav ul, nav:active ul{
     position: absolute;
