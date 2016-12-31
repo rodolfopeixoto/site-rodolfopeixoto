@@ -1,71 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <title>Rodolfo Peixoto</title>
   <meta charset="utf-8">
-  <link rel="icon" href="favicon.png">
+  <meta name="description" content="content">
+  <meta name="keywords" content="content">
+  <meta name="author" content="Rodolfo Peixoto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rodolfo Peixoto</title>
+  <!-- [if lt IE 9] >
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+<!--   <link rel="icon" href="favicon.png"> -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/home.css">
 </head>
 <body>
 
   <header>
-    <nav>
+    <figure>
+      <img src="assets/img/logo-rodolfo-peixoto.svg" alt="Logo Marca do Rodolfo Peixoto" >
+    </figure>
+
+    <nav class="navigationBar">
+      <a href="#" class="icon">&#9776;</a>
       <ul>
-        <li>Home</li>
-        <li>Projetos Feitos</li>
-        <li>Currículo</li>
-        <li>Skills</li>
-        <li>Contato</li>
-        <li>Orçamento</li>
+        <li class="current"><a href="#" title="Página inicial com as redes sociais e quem é o Rodolfo">Página Inicial</a></li>
+        <li><a href="#" title="Projetos já desenvolvidos por Rodolfo">Projetos</a></li>
+        <li><a href="#" title="Toda a trajetória do Rodolfo">Currículo</a></li>
+        <li><a href="#" title="Todas as habilidades do Rodolfo">Skills</a></li>
+        <li><a href="#" title="Informações para entrar em contato">Contato</a></li>
+        <li><a href="#" title="Solicitação de um orçamento detalhado de algum projeto">Orçamento</a></li>
       </ul>
     </nav>
   </header>
 
-  <section>
-    <h1>Home</h1>
-<h2>What is Lorem Ipsum?</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since <i>the 1500s</i>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It <b>has survived not only five centuries</b>, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with <strong>the release of Letraset</strong> sheets containing Lorem Ipsum passages, and more recently with desktop publishing software <em>like Aldus PageMaker</em> including versions of Lorem Ipsum.</p>
-
-<h2>Why do we use it?</h2>
-<p><ins>It is a long</ins> <del>established</del> fact that a reader will be distracted by the readable content of a page when looking at its <small>layout. The point of using Lorem Ipsum is that it has a more-or-less normal </small>distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, <sup>sometimes by accident, sometimes on purpose</sup> (injected humour and the <sub>like</sub>).</p>
-
-
-<h2>Where does it come from?</h2>
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
-<p><abbr title="Application Program Interface">API</abbr> of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-  </section>
-
- <address>
-   Rodolfo Gomes Peixoto.<br>
-   Visit nos:<br>
-   Example.com<br>
-   Box, asdas<br>
-   BR
- </address>
-
- <p>
-   <cite>The Scream</cite> by Rodolfo Peixoto
- </p>
-
- <bdo dir="rtl">
-   this text will be write from right to left
- </bdo>
-
-<br>
-
- <code>
-   var x = 5;
-   var y = 6;
-   document.getElementById("demo").innerHTML = x + y;
- </code>
-
- <samp>
-   25
- </samp>
-
- Eisten wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>
-
+  <main>
+    <section class="profile">
+      <div class="row">
+        <figure class="column column-2">
+          <img src="assets/img/rodolfo.png" alt="Foto do Rodolfo Peixoto">
+        </figure>
+        <div class="column column-6">
+          <h1>Rodolfo Peixoto</h1>
+          <p>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer></footer>
+  <script src="assets/js/nav.js"></script>
 </body>
 </html>
