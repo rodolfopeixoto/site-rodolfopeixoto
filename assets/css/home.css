@@ -28,10 +28,12 @@
 }
 
 .block_social{
-  width:250px;
+  width:310px;
   height:150px;
   background-color:#38b9e9;
   border-top: 10px solid #18aae0;
+  float: left;
+  margin: 10px;
 }
 
 
