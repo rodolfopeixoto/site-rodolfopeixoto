@@ -1,10 +1,11 @@
 .profile {
-  width: 50%;
+  width: 95%;
   background: #fff;
   margin: auto;
   margin-top: 20px;
   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
-  padding: 20px
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .profile h1{
@@ -21,21 +22,42 @@
 .profile figure img{
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #000;
+    width: 200px;; /* REMOVER */
+    height: 200px; /* REMOVER */
     border-radius: 50%;
 }
 
 .block_social{
-
+  width:250px;
+  height:150px;
+  background-color:#38b9e9;
+  border-top: 10px solid #18aae0;
 }
 
 
 
-@media only screen and (max-width: 657px){
-  .profile h1{ font-size: 16px; padding: 5px; }
-  .profile p strong{ font-size: 13px; }
+@media only screen and (max-width: 660px){
+  .profile h1{ font-size: 16px; padding: 5px;}
+  .profile {width: 95%; text-align: center;}
+  .profile p strong{ font-size: 13px;}
+  .profile p:second-child{
+    text-align: left;
+  }
   .profile figure img{
-    border: 1px solid #000;
+    border-radius: 50%;
+  }
+}
+
+
+
+@media only screen and (max-width: 870px){
+  .profile h1{ font-size: 19px; padding: 5px;}
+  .profile {width: 95%; text-align: center;}
+  .profile p strong{ font-size: 16px;}
+  .profile p:second-child{
+    text-align: left;
+  }
+  .profile figure img{
     border-radius: 50%;
   }
 }
