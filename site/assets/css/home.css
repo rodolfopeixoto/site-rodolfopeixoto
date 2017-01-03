@@ -19,6 +19,11 @@
   font-weight: normal;
 }
 
+.profile p:last-child{
+  font-size: 19px;
+  text-align: justify;
+}
+
 .profile figure img{
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +39,23 @@
   border-top: 10px solid #18aae0;
   float: left;
   margin: 10px;
+}
+
+.block_social svg {
+  width: 12%;
+  margin: 10px;
+}
+
+.block_social h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #303036;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+a .block_social:hover {
+  background-color: #33a2cc;
+  cursor: pointer;
 }
 
 

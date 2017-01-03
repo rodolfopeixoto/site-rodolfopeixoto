@@ -36,7 +36,7 @@ header {
   color: #303036;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-size:0.9em;
+  font-size: 1.0em;
 }
 
 .navigationBar a:hover { color: #7e7e84;
@@ -47,7 +47,7 @@ nav {
     padding: 20px;
 }
 
-header figure img{
+header figure svg{
     float: left;
     display: block;
 }
@@ -115,4 +115,21 @@ nav .icon {
     padding: 15px 0;
     margin: 0;
   }
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #222222;
+  height: 12 0px;
+  margin-top: 2%;
+}
+
+footer p{
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  padding: 5%;
 }

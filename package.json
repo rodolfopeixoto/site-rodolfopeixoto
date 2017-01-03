@@ -1,0 +1,22 @@
+{
+  "name":"rodolfopeixoto",
+  "version":"0.0.1",
+  "author":"Rodolfo Peixoto",
+   "devDependencies":
+    {
+      "gulp": "latest",
+      "gulp-if": "latest",
+      "gulp-clean": "latest",
+      "gulp-cssnano": "latest",
+      "gulp-htmlmin": "latest",
+      "gulp-imagemin": "latest",
+      "gulp-load-plugins": "latest",
+      "gulp-rev": "latest",
+      "gulp-rev-delete-original": "latest",
+      "gulp-rev-replace": "latest",
+      "gulp-sequence": "latest",
+      "gulp-uglify": "latest",
+      "gulp-useref": "latest",
+      "gulp-inline-source": "latest"
+  }
+}
