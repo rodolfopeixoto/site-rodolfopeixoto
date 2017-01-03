@@ -22,6 +22,11 @@ header {
   text-align: center;
 }
 
+header figure{
+  display: inline;
+  float: left;
+}
+
 .navigationBar ul{
     list-style: none;
 }
@@ -47,11 +52,6 @@ nav {
     padding: 20px;
 }
 
-header figure svg{
-    float: left;
-    display: block;
-}
-
 nav .icon {
   display: none;
 }
@@ -64,7 +64,6 @@ nav .icon {
     max-width: 100%;
     height: auto;
 }
-
 
 .container {
     padding-right: 15px;

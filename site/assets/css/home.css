@@ -27,8 +27,8 @@
 .profile figure img{
     margin-left: auto;
     margin-right: auto;
-    width: 200px;; /* REMOVER */
-    height: 200px; /* REMOVER */
+    width: 230px;; /* REMOVER */
+    height: 230px; /* REMOVER */
     border-radius: 50%;
 }
 
@@ -41,10 +41,6 @@
   margin: 10px;
 }
 
-.block_social svg {
-  width: 12%;
-  margin: 10px;
-}
 
 .block_social h2 {
   font-family: 'Roboto', sans-serif;
@@ -58,6 +54,11 @@ a .block_social:hover {
   cursor: pointer;
 }
 
+img.icon_block{
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+}
 
 
 @media only screen and (max-width: 660px){
