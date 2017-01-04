@@ -30,20 +30,20 @@ header figure{
     list-style: none;
 }
 
-.navigationBar li{
+nav li{
     display: inline-block;
     float: left;
     padding: 10px;
 }
 
-.navigationBar a {
+nav a {
   color: #303036;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-size: 1.0em;
 }
 
-.navigationBar a:hover { color: #7e7e84;
+nav a:hover { color: #7e7e84;
     cursor: pointer; }
 
 nav {
@@ -79,7 +79,7 @@ nav .icon {
 
 
 /* header */
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 677px){
   nav .icon {  display: block; font-size:2.6em; }
   nav ul, nav:active ul{
     position: absolute;
