@@ -31,7 +31,7 @@ gulp.task('minify-css', function() {
 });
 
 gulp.task('minify-html', function() {
-  return gulp.src('site/**/*.html')
+  return gulp.src('site/*.html')
     .pipe($.htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist/'))
 });
