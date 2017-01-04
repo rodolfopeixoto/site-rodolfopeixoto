@@ -32,6 +32,9 @@
     border-radius: 50%;
 }
 
+/*.social{
+}
+*/
 .block_social{
   width:310px;
   height:150px;
@@ -60,11 +63,42 @@ img.icon_block{
   margin: 5px;
 }
 
+/* Últimos Projetos */
+.last_project{
+  float: left;
+}
+
+.last_project h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.last_project article h3{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+img.icon_project{
+    width: 270px;
+    height: 170px;
+}
+
+article p{
+  font-size: 0.9em;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
 
 @media only screen and (max-width: 660px){
   .profile h1{ font-size: 16px; padding: 5px;}
-  .profile {width: 95%; text-align: center;}
-  .profile p strong{ font-size: 13px;}
+  .profile { width: 99%; text-align: center;}
+  .profile p strong { font-size: 13px;}
   .profile p:second-child{
     text-align: left;
   }
@@ -75,7 +109,7 @@ img.icon_block{
 
 
 
-@media only screen and (max-width: 870px){
+@media only screen and (min-width: 870px){
   .profile h1{ font-size: 19px; padding: 5px;}
   .profile {width: 95%; text-align: center;}
   .profile p strong{ font-size: 16px;}
@@ -84,5 +118,41 @@ img.icon_block{
   }
   .profile figure img{
     border-radius: 50%;
+  }
+}
+
+@media (max-width: 320px){
+  .social{
+    margin-left: -6%;
+  }
+}
+
+@media (min-width: 1024px){
+  .block_social{
+    margin-left:3%;
+    width:270px;
+    height:150px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 425px){
+  .block_social{
+    margin-left:11%;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 768px){
+    .block_social{
+    margin-left:4%;
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 1440px){
+      .block_social{
+    margin-left:7%;
+    font-size: 0.8em;
   }
 }
