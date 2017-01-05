@@ -13,17 +13,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.profile p strong{
-  font-size: 13px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-}
-
-.profile p:last-child{
-  font-size: 19px;
-  text-align: justify;
-}
-
 .profile figure img{
     margin-left: auto;
     margin-right: auto;
