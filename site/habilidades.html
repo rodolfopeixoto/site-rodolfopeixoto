@@ -22,7 +22,7 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-<!--   <link rel="icon" href="favicon.png"> -->
+  <link rel="icon" href="assets/img/favicon.ico">
   <!-- build:css assets/css/style3.css -->
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/global.css">
@@ -57,7 +57,10 @@
       <!-- LOGO - RODOLFO PEIXOTO -->
       <a href="index.html" title="Link para Home">
       <figure>
-        <img src="assets/img/sprite.svg#svgView(viewBox(0, 45, 130, 37)))" alt="Logo Marca do Rodolfo Peixoto" width="110px" height="130px" >
+        <img src="assets/img/sprite.svg#svgView(viewBox(0, 45, 130, 37))" alt="Logo Marca do Rodolfo Peixoto" class="logo" >
+<!--         <svg viewBox="0 45 130 37" >
+         <use xlink:href="#rodolfo-logo-marca"></use>
+       </svg> -->
       </figure>
      </a>
     <!-- LOGO - RODOLFO PEIXOTO -->
@@ -86,36 +89,62 @@
   <!-- HEADER -->
 
 
-
-
   <!-- MAIN - CONTENT -->
 
   <main class="wrap">
 
   <h1 class="roboto col-12 text-center skills gray">SKILLS</h1>
 
+ <!-- main container div> -->
+  <div class="col-12 skill box-shadow">
   <!-- SKILLS - FRONT-END -->
     <section class="col-6">
         <h2 class="roboto">FRONT-END</h2>
 
         <article class="col-12">
-        <h3 class="roboto">HTML 5</h3>
-        <progress value="80" max="100" class="col-12">
+        <h3 class="roboto col-6">HTML 5</h3>
+        <h3 class="roboto col-6 text-right">70%</h3>
+        <progress id="progressBar" value="70" max="100" class="col-12"></progress>
         </article>
 
         <article class="col-12">
 
-        <h3 class="roboto">CSS3</h3>
-        <progress value="80" max="100" class="col-12">
+        <h3 class="roboto col-6">CSS3</h3>
+        <h3 class="roboto col-6 text-right">60%</h3>
+        <progress id="progressBar" value="60" max="100" class="col-12"></progress>
 
         </article>
 
         <article class="col-12">
 
-        <h3 class="roboto">Javascript</h3>
-        <progress value="80" max="100" class="col-12">
+        <h3 class="roboto col-6">Javascript</h3>
+        <h3 class="roboto col-6 text-right">25%</h3>
+        <progress id="progressBar" value="25" max="100" class="col-12"></progress>
 
         </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Chrome DevTools</h3>
+          <h3 class="roboto col-6 text-right">40%</h3>
+          <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+          </article>
+
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Performance Front-end</h3>
+          <h3 class="roboto col-6 text-right">70%</h3>
+          <progress id="progressBar" value="70" max="100" class="col-12"></progress>
+
+        </article>
+
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Gulp</h3>
+          <h3 class="roboto col-6 text-right">25%</h3>
+          <progress id="progressBar" value="25" max="100" class="col-12"></progress>
+
+        </article>
+
     </section>
   <!-- SKILLS - FRONT-END -->
 
@@ -127,42 +156,89 @@
 
         <article class="col-12">
 
-        <h3 class="roboto">Ruby</h3>
-        <progress value="80" max="100" class="col-12">
+        <h3 class="roboto col-6">Ruby</h3>
+        <h3 class="roboto col-6 text-right">40%</h3>
+        <progress id="progressBar" value="40" max="100" class="col-12"></progress>
 
         </article>
 
         <article class="col-12">
 
-        <h3 class="roboto">PHP</h3>
-        <progress value="80" max="100" class="col-12">
+        <h3 class="roboto col-6">PHP</h3>
+        <h3 class="roboto col-6 text-right">40%</h3>
+        <progress id="progressBar" value="40" max="100" class="col-12"></progress>
 
         </article>
 
         <article class="col-12">
 
-        <h3 class="roboto">Java</h3>
-        <progress value="80" max="100" class="col-12">
+        <h3 class="roboto col-6">Java</h3>
+        <h3 class="roboto col-6 text-right">40%</h3>
+        <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">Ruby on Rails</h3>
+        <h3 class="roboto col-6 text-right">70%</h3>
+        <progress id="progressBar" value="70" max="100" class="col-12"></progress>
 
         </article>
 
      </section>
   <!-- SKILLS - BACK-END -->
+  </div> <!-- main container div> -->
 
-
-  <!-- SKILLS - FRAMEWORK -->
+<!-- main container div -->
+  <div class="col-12 skill box-shadow">
+  <!-- SKILLS - INFRAESTRUTURA -->
     <section class="col-6">
 
-        <h2 class="roboto">FRAMEWORK</h2>
+        <h2 class="roboto">INFRAESTRUTURA</h2>
 
         <article class="col-12">
+        <h3 class="roboto col-6">PostgreSQL</h3>
+        <h3 class="roboto col-6 text-right">20%</h3>
+        <progress id="progressBar" value="20" max="100" class="col-12"></progress>
 
-        <h3 class="roboto">Ruby on Rails</h3>
-        <progress value="80" max="100" class="col-12">
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Linux</h3>
+          <h3 class="roboto col-6 text-right">40%</h3>
+          <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Git</h3>
+          <h3 class="roboto col-6 text-right">60%</h3>
+          <progress id="progressBar" value="60" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Docker</h3>
+          <h3 class="roboto col-6 text-right">40%</h3>
+          <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Heroku</h3>
+          <h3 class="roboto col-6 text-right">60%</h3>
+          <progress id="progressBar" value="60" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">AWS</h3>
+          <h3 class="roboto col-6 text-right">40%</h3>
+          <progress id="progressBar" value="40" max="100" class="col-12"></progress>
 
         </article>
     </section>
-  <!-- SKILLS - FRAMEWORK -->
+  <!-- SKILLS - INFRAESTRUTURA -->
 
 
 
@@ -172,14 +248,119 @@
         <h2 class="roboto">BUSINESS</h2>
 
         <article class="col-12">
+        <h3 class="roboto col-6">Canvas</h3>
+        <h3 class="roboto col-6 text-right">30%</h3>
+        <progress id="progressBar" value="30" max="100" class="col-12"></progress>
+        </article>
 
-        <h3 class="roboto">Canvas</h3>
-        <progress value="40" max="100" class="col-12">
+        <article class="col-12">
+        <h3 class="roboto col-6">Marketing Digital</h3>
+        <h3 class="roboto col-6 text-right">40%</h3>
+        <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">Lean Startup</h3>
+        <h3 class="roboto col-6 text-right">80%</h3>
+        <progress id="progressBar" value="80" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">Produtividade</h3>
+        <h3 class="roboto col-6 text-right">85%</h3>
+        <progress id="progressBar" value="85" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">SCRUM</h3>
+        <h3 class="roboto col-6 text-right">65%</h3>
+        <progress id="progressBar" value="65" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">SEO</h3>
+        <h3 class="roboto col-6 text-right">65%</h3>
+        <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">Google Analytics</h3>
+        <h3 class="roboto col-6 text-right">45%</h3>
+        <progress id="progressBar" value="45" max="100" class="col-12"></progress>
 
         </article>
     </section>
   <!-- SKILLS - BUSINESS -->
+  </div>
+  <!-- main container div -->
 
+
+<!-- main container div -->
+  <div class="col-12 skill box-shadow">
+  <!-- SKILLS - DESIGN & UX -->
+    <section class="col-6">
+
+        <h2 class="roboto">DESIGN &amp; UX</h2>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">Photoshop</h3>
+        <h3 class="roboto col-6 text-right">60%</h3>
+        <progress id="progressBar" value="60" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Facebook Anúncios</h3>
+          <h3 class="roboto col-6 text-right">65%</h3>
+          <progress id="progressBar" value="65" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Tipografia</h3>
+          <h3 class="roboto col-6 text-right">40%</h3>
+          <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">Email marketing</h3>
+          <h3 class="roboto col-6 text-right">30%</h3>
+          <progress id="progressBar" value="30" max="100" class="col-12"></progress>
+
+        </article>
+
+        <article class="col-12">
+          <h3 class="roboto col-6">UX</h3>
+          <h3 class="roboto col-6 text-right">40%</h3>
+          <progress id="progressBar" value="40" max="100" class="col-12"></progress>
+
+        </article>
+    </section>
+  <!-- SKILLS - DESIGN & UX  -->
+
+
+
+  <!-- SKILLS - MOBILE -->
+    <section class="col-6">
+
+        <h2 class="roboto">MOBILE</h2>
+
+        <article class="col-12">
+        <h3 class="roboto col-6">Android</h3>
+        <h3 class="roboto col-6 text-right">60%</h3>
+        <progress id="progressBar" value="60" max="100" class="col-12"></progress>
+        </article>
+
+    </section>
+  <!-- SKILLS - MOBILE -->
+  </div>
+  <!-- main container div -->
 
 
   </main>
