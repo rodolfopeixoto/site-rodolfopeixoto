@@ -14,10 +14,6 @@ label {
     font-style: none;
 }
 
-.contato form{
-    margin: 0 auto;
-    width: 500px;
-}
 
 .contato input, .contato textarea{
     width: 100%;
@@ -46,3 +42,17 @@ label {
 #submit:hover {
         opacity:.9;
     }
+
+
+@media (min-width: 1024px){
+  .contato form{
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px){
+  .contato form{
+    width: 100%;
+  }
+}
