@@ -6,7 +6,7 @@ var $ = require('gulp-load-plugins')({rename: {'gulp-rev-delete-original':'revde
 
 /* Tasks base */
 gulp.task('copy', function() {
-    return gulp.src(['site/assets/{img,font}/**/*', 'site/app.yaml'], {base: 'site'})
+    return gulp.src(['site/assets/{img,font}/**/*','site/*.php', 'site/app.yaml'], {base: 'site'})
         .pipe(gulp.dest('dist'));
 });
 
