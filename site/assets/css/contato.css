@@ -45,14 +45,13 @@ label {
 
 
 @media (min-width: 1024px){
-  .contato form{
-    margin: 0 auto;
-    width: 60%;
+    .contato input, #submit{
+    width: 100%;
   }
 }
 
 @media (max-width: 720px){
-  .contato form{
+  .contato input, #submit{
     width: 100%;
   }
 }

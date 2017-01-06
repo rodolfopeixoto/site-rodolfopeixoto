@@ -77,20 +77,21 @@
       <h1 class="col-12 text-center title_h1 gray roboto">Orçamento</h1>
 
 
-      <section class="col-12 contato">
+      <div class="col-6 contato">
+        <h2 class="open-sans">MENSAGEM</h2>
         <p class="open-sans">
           Deseja fazer um sistema, site ou melhorar o seu negócio? Posso ajudar!
           Preencha o formulário abaixo e lhe envio uma proposta em até 72 horas úteis. Explane sobre o projeto
           para que possa efetuar um orçamento mais preciso para as suas necessidades.
         </p>
 
-        <form action="orcamento.php" method="post" accept-charset="utf-8" >
+        <form action="contato.php" method="post" accept-charset="utf-8" >
           <label>Nome</label>
-          <input type="text" placeholder="DIGITE AQUI O SEU NOME" name="name" required>
+          <input type="text" placeholder="DIGITE AQUI O SEU NOME" name="name">
           <label>Email</label>
-          <input type="email" name="email" placeholder="DIGITE AQUI O SEU EMAIL" required>
+          <input type="email" name="email" placeholder="DIGITE AQUI O SEU EMAIL">
           <label>Telefone</label>
-          <input type="tel" name="tel" placeholder="(DD) 99999-9999" required>
+          <input type="tel" name="tel" placeholder="(DD) 99999-9999">
           <label>Nome do Projeto</label>
           <input type="text" name="project_name" placeholder="DIGITE AQUI O NOME DO PROJETO">
           <label>Descrição Detalhada do Projeto</label>
@@ -100,7 +101,7 @@
           <input type="submit" id="submit" name="submit">
         </form>
 
-      </section>
+      </div>
   <!-- ORÇAMENTO -->
 
   </main>
