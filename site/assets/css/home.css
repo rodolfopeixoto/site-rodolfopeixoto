@@ -19,22 +19,27 @@
     width: 230px;; /* REMOVER */
     height: 230px; /* REMOVER */
     border-radius: 50%;
+    background-color: #2a7fff;
+    padding: 1%;
+
 }
+
 
 /*.social{
 }
 */
-.block_social{
-  width:310px;
-  height:150px;
+/*.block_social{
   background-color:#38b9e9;
   border-top: 10px solid #18aae0;
   float: left;
-  margin: 10px;
-}
+  margin: 3% 1%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}*/
 
 
-.block_social h2 {
+/*.block_social h2 {
   font-family: 'Roboto', sans-serif;
   color: #303036;
   font-size: 1.2em;
@@ -44,13 +49,9 @@
 a .block_social:hover {
   background-color: #33a2cc;
   cursor: pointer;
-}
+}*/
 
-img.icon_block{
-  width: 45px;
-  height: 45px;
-  margin: 5px;
-}
+
 
 /* Últimos Projetos */
 .last_project{
@@ -58,9 +59,6 @@ img.icon_block{
 }
 
 .last_project h2{
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 1.7em;
   text-align: center;
 }
 
@@ -80,7 +78,6 @@ article p{
   font-size: 0.9em;
   font-family: 'Roboto', sans-serif;
 }
-
 
 
 
@@ -105,9 +102,7 @@ article p{
   .profile p:second-child{
     text-align: left;
   }
-  .profile figure img{
-    border-radius: 50%;
-  }
+
 }
 
 @media (max-width: 320px){
@@ -117,31 +112,17 @@ article p{
 }
 
 @media (min-width: 1024px){
-  .block_social{
-    margin-left:3%;
-    width:270px;
-    height:150px;
-    font-size: 0.8em;
-  }
+
 }
 
 @media (max-width: 425px){
-  .block_social{
-    margin-left:11%;
-    font-size: 0.8em;
-  }
+
 }
 
 @media (max-width: 768px){
-    .block_social{
-    margin-left:4%;
-    font-size: 0.8em;
-  }
+
 }
 
 @media (min-width: 1440px){
-      .block_social{
-    margin-left:7%;
-    font-size: 0.8em;
-  }
+
 }
