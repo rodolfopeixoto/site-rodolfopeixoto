@@ -1,9 +1,41 @@
-# Site Rodolfo Peixoto
+# Rodolfo Peixoto - [ Site desnevolvido pensando só na perfomance ]
 
-Desenvolvimento de um site em html 5 + css 3.
+Desenvolvimento de um site utilizando HTML e CSS.
 
-- Utilizando o SVGO para otimizar os svgs
+[www.rogpe.me](http://www.rogpe.me) 
 
-[https://web-design-weekly.com/2014/10/22/optimizing-svg-web/][SVGO]
+Versão do Projeto 0.0.1
+================
 
-- Para remover os metas dados, logo removendo o seu tamanhos, utilizei o site: https://tinypng.com/ para png!
+Sobre esta versão
+---------------------
+Site desenvolvido:
+Utilizamos:
+ - GULP
+ - HTML 5
+ - CSS 3
+
+Acompanhe as atualizações do projeto
+---------------------
+
+
+
+ATENÇÃO
+---------------------
+
+
+
+Configuração inicial
+---------------------
+Basta clonar o repositório e estudar o código, caso queira entender as técnicas.
+
+
+Documentação
+---------------------
+
+###Links diretos:
+
+
+Desenvolvimento
+---------------------
+-   [Rodolfo Peixoto](http://www.rodolfopeixoto.com.br/)
