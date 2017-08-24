@@ -2,9 +2,7 @@
 
 Desenvolvimento de um site utilizando HTML e CSS.
 
-Exemplo da aplicação: https://rogpe-contacts.herokuapp.com/contacts/new
-
-[www.rodolfopeixoto.com.br](http://www.rodolfopeixoto.com.br) 
+[www.rogpe.me](http://www.rogpe.me) 
 
 Versão do Projeto 0.0.1
 ================
