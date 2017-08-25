@@ -23,36 +23,51 @@
     padding: 1%;
 
 }
-
-
-/*.social{
+nav#projetos_recentes{
+  float: none;
 }
-*/
-/*.block_social{
-  background-color:#38b9e9;
-  border-top: 10px solid #18aae0;
-  float: left;
-  margin: 3% 1%;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}*/
+nav#projetos_recentes figure{ 
+  display: block;
+}
 
+nav#projetos_recentes img{
+  max-width: 15em;
+  max-height: 5em; 
+}
 
-/*.block_social h2 {
-  font-family: 'Roboto', sans-serif;
-  color: #303036;
-  font-size: 1.2em;
+#projetos_recentes ul{
+  display: flex;
+  margin-top: 1em;
+}
+ 
+#projetos_recentes li{
+  width: 100%;   
+  display: flex;
+}
+ 
+ 
+.social-networking {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+svg { 
+  vertical-align: middle;
+} 
+
+.social-networking a{
+  color: #0085ff;
+}
+
+.subtitle{
   text-align: center;
-}
-
-a .block_social:hover {
-  background-color: #33a2cc;
-  cursor: pointer;
-}*/
-
-
-
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+} 
 /* Últimos Projetos */
 .last_project{
   float: left;
@@ -79,7 +94,9 @@ article p{
   font-family: 'Roboto', sans-serif;
 }
 
-
+nav#social {
+  margin-bottom: 4em;
+}
 
 @media only screen and (max-width: 660px){
   .profile h1{ font-size: 16px; padding: 5px;}

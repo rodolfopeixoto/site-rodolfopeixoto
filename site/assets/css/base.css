@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 /* COR */
 .piano-black{
@@ -36,6 +37,15 @@
     text-align: justify;
 }
 
+.descricao{ 
+  margin-bottom: 0;
+  line-height: 26px;
+  font-size: 16px;
+  color: #424242;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+}
 
 /* FONTES */
 .roboto{
